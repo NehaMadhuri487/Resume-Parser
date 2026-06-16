@@ -148,7 +148,7 @@ Users can download extracted text as a `.txt` file.
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/NehaMadhuri487/Resume-Parser
 ```
 
 ## 2️⃣ Move into Project Folder
