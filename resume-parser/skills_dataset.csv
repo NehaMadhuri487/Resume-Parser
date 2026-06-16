@@ -6,14 +6,261 @@ Reports & Dashboards,Salesforce
 Profiles & Roles,Salesforce
 Data Management,Salesforce
 Validation Rules,Salesforce
+Apex Programming,Salesforce
+Visualforce Pages,Salesforce
+SOQL Queries,Salesforce
+Workflow Rules,Salesforce
+Process Builder,Salesforce
+Flow Automation,Salesforce
+Permission Sets,Salesforce
+Sharing Rules,Salesforce
+Einstein Analytics,Salesforce
+Service Cloud,Salesforce
+Marketing Cloud,Salesforce
+Sales Cloud,Salesforce
+CPQ,Salesforce
 Salesforce Trailhead,Tools
 Salesforce Lightning,Tools
+Jira,Tools
+Git,Tools
+Docker,Tools
+Kubernetes,Tools
+Postman,Tools
+VS Code,Tools
+IntelliJ IDEA,Tools
+Eclipse,Tools
+Slack,Tools
+Trello,Tools
+Confluence,Tools
+Maven,Tools
+Gradle,Tools
+Jenkins,Tools
+CircleCI,Tools
+GitHub Actions,Tools
+Bitbucket,Tools
+GitLab,Tools
 Python,Programming
 SQL,Programming
 JavaScript,Programming
 HTML,Programming
 CSS,Programming
+C++,Programming
+Java,Programming
+R,Programming
+MATLAB,Programming
+Go,Programming
+Rust,Programming
+TypeScript,Programming
+PHP,Programming
+Ruby,Programming
+Perl,Programming
+Scala,Programming
+Swift,Programming
+Dart,Programming
+Objective-C,Programming
+Shell Scripting,Programming
+TensorFlow,AI/ML
+PyTorch,AI/ML
+Keras,AI/ML
+Scikit-learn,AI/ML
+OpenCV,AI/ML
+Natural Language Processing,AI/ML
+Computer Vision,AI/ML
+Deep Learning,AI/ML
+Reinforcement Learning,AI/ML
+Machine Learning Algorithms,AI/ML
+Data Preprocessing,AI/ML
+Feature Engineering,AI/ML
+Transformers,AI/ML
+GANs,AI/ML
+Embeddings,AI/ML
+Clustering,AI/ML
+Regression,AI/ML
+Classification,AI/ML
+Recommendation Systems,AI/ML
+Speech Recognition,AI/ML
+AWS,Cloud
+Azure,Cloud
+Google Cloud Platform,Cloud
+Heroku,Cloud
+IBM Cloud,Cloud
+Oracle Cloud,Cloud
+Cloud Security,Cloud
+Serverless Computing,Cloud
+CloudFormation,Cloud
+Terraform,Cloud
+BigQuery,Cloud
+Cloud Storage,Cloud
+Lambda Functions,Cloud
+EC2,Cloud
+S3,Cloud
+DynamoDB,Cloud
+Kinesis,Cloud
+Redshift,Cloud
+App Engine,Cloud
+Kubernetes Engine,Cloud
+skill,category
 Communication Skills,Soft Skills
 Presentation Skills,Soft Skills
 Teamwork,Soft Skills
 Adaptability,Soft Skills
+Problem Solving,Soft Skills
+Leadership,Soft Skills
+Critical Thinking,Soft Skills
+Time Management,Soft Skills
+Creativity,Soft Skills
+Collaboration,Soft Skills
+Conflict Resolution,Soft Skills
+Negotiation,Soft Skills
+Mentoring,Soft Skills
+Decision Making,Soft Skills
+Analytical Thinking,Soft Skills
+Emotional Intelligence,Soft Skills
+Resilience,Soft Skills
+Work Ethic,Soft Skills
+Flexibility,Soft Skills
+Interpersonal Skills,Soft Skills
+MySQL,Databases
+PostgreSQL,Databases
+MongoDB,Databases
+Cassandra,Databases
+Redis,Databases
+Neo4j,Databases
+SQLite,Databases
+MariaDB,Databases
+Oracle Database,Databases
+DB2,Databases
+Unit Testing,Testing
+Integration Testing,Testing
+System Testing,Testing
+Acceptance Testing,Testing
+Selenium,Testing
+JUnit,Testing
+PyTest,Testing
+Mocha,Testing
+Chai,Testing
+Cypress,Testing
+UI Design,UI/UX
+UX Research,UI/UX
+Wireframing,UI/UX
+Prototyping,UI/UX
+Figma,UI/UX
+Adobe XD,UI/UX
+Sketch,UI/UX
+InVision,UI/UX
+Responsive Design,UI/UX
+Accessibility,UI/UX
+Security Testing,Security
+Penetration Testing,Security
+Vulnerability Assessment,Security
+Threat Modeling,Security
+OWASP Top 10,Security
+Network Security,Security
+Application Security,Security
+Identity Management,Security
+Encryption,Security
+Firewalls,Security
+DevOps,DevOps
+CI/CD Pipelines,DevOps
+Infrastructure as Code,DevOps
+Monitoring,DevOps
+Logging,DevOps
+Alerting,DevOps
+Configuration Management,DevOps
+Ansible,DevOps
+Chef,DevOps
+Puppet,DevOps
+skill,category
+Agile Methodology,Project Management
+Scrum,Project Management
+Kanban,Project Management
+Waterfall,Project Management
+Project Planning,Project Management
+Risk Management,Project Management
+Stakeholder Management,Project Management
+Budgeting,Project Management
+Resource Allocation,Project Management
+MS Project,Project Management
+Business Analysis,Business
+Requirements Gathering,Business
+Process Modeling,Business
+Gap Analysis,Business
+SWOT Analysis,Business
+Market Research,Business
+Data Analysis,Business
+Financial Modeling,Business
+Forecasting,Business
+Business Strategy,Business
+Linux,Operating Systems
+Windows,Operating Systems
+MacOS,Operating Systems
+Unix,Operating Systems
+Shell,Operating Systems
+Batch Scripting,Operating Systems
+PowerShell,Operating Systems
+System Administration,Operating Systems
+Virtualization,Operating Systems
+VMware,Operating Systems
+Networking,Networking
+TCP/IP,Networking
+DNS,Networking
+DHCP,Networking
+Routing,Networking
+Switching,Networking
+Firewalls,Networking
+VPN,Networking
+Load Balancing,Networking
+Network Monitoring,Networking
+skill,category
+Big Data,Hadoop
+HDFS,Hadoop
+MapReduce,Hadoop
+Hive,Hadoop
+Pig,Hadoop
+Spark,Hadoop
+Kafka,Hadoop
+Flink,Hadoop
+Storm,Hadoop
+Zookeeper,Hadoop
+Data Warehousing,Data
+ETL,Data
+Data Lakes,Data
+Data Governance,Data
+Data Quality,Data
+Data Catalog,Data
+Data Lineage,Data
+Data Security,Data
+Data Privacy,Data
+Data Compliance,Data
+Excel,Productivity
+Word,Productivity
+PowerPoint,Productivity
+Outlook,Productivity
+Teams,Productivity
+Zoom,Productivity
+Google Docs,Productivity
+Google Sheets,Productivity
+Google Slides,Productivity
+Google Meet,Productivity
+skill,category
+Blockchain,Emerging Tech
+Smart Contracts,Emerging Tech
+Ethereum,Emerging Tech
+Hyperledger,Emerging Tech
+Solidity,Emerging Tech
+NFTs,Emerging Tech
+Cryptography,Emerging Tech
+Quantum Computing,Emerging Tech
+IoT,Emerging Tech
+Edge Computing,Emerging Tech
+AR/VR,Emerging Tech
+Augmented Reality,Emerging Tech
+Virtual Reality,Emerging Tech
+Mixed Reality,Emerging Tech
+3D Modeling,Emerging Tech
+Simulation,Emerging Tech
+Digital Twins,Emerging Tech
+Robotics,Emerging Tech
+Automation,Emerging Tech
+Drones,Emerging Tech
+
