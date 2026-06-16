@@ -4,8 +4,9 @@
 
 * **Intern ID:** CITS1931
 * **Full Name:** Boddu Neha Madhuri
-* **Project Name:** AI Resume Parser using Flask
+* **Project Name:** Resume Parser
 * **Duration:** 6 Weeks
+* **Project Scope:** Develop an AI-assisted resume parsing system capable of extracting text from PDF and DOCX resumes, identifying personal and professional information, categorizing skills using dataset-based analysis, and presenting structured resume insights through a Flask web application interface.
 
 ---
 
