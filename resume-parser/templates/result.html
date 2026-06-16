@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Results</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #2a4365;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #2b6cb0;
+            margin-top: 25px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+        }
+        pre {
+            background: #f7fafc;
+            padding: 12px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            background: #edf2f7;
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .header-info {
+            background: #2b6cb0;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .header-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Structured Resume Data</h2>
+
+        <!-- Personal Info -->
+        <div class="header-info">
+            {% if sections.get("Name") %}<p><strong>Name:</strong> {{ sections["Name"] }}</p>{% endif %}
+            {% if sections.get("Email") %}<p><strong>Email:</strong> {{ sections["Email"] }}</p>{% endif %}
+            {% if sections.get("Phone") %}<p><strong>Phone:</strong> {{ sections["Phone"] }}</p>{% endif %}
+            {% if sections.get("LinkedIn") %}<p><strong>LinkedIn:</strong> {{ sections["LinkedIn"] }}</p>{% endif %}
+            {% if sections.get("GitHub") %}<p><strong>GitHub:</strong> {{ sections["GitHub"] }}</p>{% endif %}
+        </div>
+
+        <!-- Resume Sections -->
+        {% for heading, content in sections.items() %}
+            {% if heading not in ["Name","Email","Phone","LinkedIn","GitHub"] %}
+                <h3>{{ heading }}</h3>
+                <pre>{{ content }}</pre>
+            {% endif %}
+        {% endfor %}
+
+        <!-- Skills -->
+        <h2>Detected Skills by Category</h2>
+        {% for category, skills_list in skills.items() %}
+            <h3>{{ category }}</h3>
+            <ul>
+                {% for skill in skills_list %}
+                    <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+
+
+<!-- Download Button -->
+<form method="POST" action="/download">
+    <textarea name="resume_text" style="display:none;">
+{% for heading, content in sections.items() %}
+{{ heading }}:
+{{ content }}
+
+{% endfor %}
+    </textarea>
+    <button type="submit">⬇ Download Extracted Resume Text</button>
+</form>
+
+</body>
+</html>
+
